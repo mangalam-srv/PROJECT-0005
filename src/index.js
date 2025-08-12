@@ -1,6 +1,6 @@
 // require ('dotenv').config({path:'./env'})
 import dotenv from "dotenv"
-import { app } from "./app.js"; 
+import { app } from "./app.js"; //by this all code of the app.js is run 
 
 
 // import mongoose from "mongoose";
@@ -14,7 +14,7 @@ import express from "express";
 
 dotenv.config({
     path:'./env'
-})
+})//this does the work of importing the variabbles declared in the .envfile 
 
 connectDB()
 .then(()=>{
