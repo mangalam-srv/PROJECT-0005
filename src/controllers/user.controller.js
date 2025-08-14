@@ -10,7 +10,7 @@ const registeruser = asyncHandler(async(req,res)=>{
     //get user details from forntend 
     const {username,fullname,email,password}=req.body;
     console.log("email",email);
-
+    console.log("fullname ");
 
   
     //no empty
