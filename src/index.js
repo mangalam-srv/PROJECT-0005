@@ -13,7 +13,7 @@ import express from "express";
 
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 })//this does the work of importing the variabbles declared in the .envfile 
 
 connectDB()
